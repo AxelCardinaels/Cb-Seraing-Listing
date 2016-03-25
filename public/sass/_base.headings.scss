@@ -1,0 +1,35 @@
+.form__title-container{
+  text-align: center;
+}
+
+.form__title{
+  font-size: 1.88888888888889em; /*34/18*/
+  font-weight: 100;
+}
+
+.form__subtitle{
+  font-weight: 300;
+  font-size:0.94444444444444em; /*17/18*/
+  color:$color-grey-light;
+}
+
+
+@media(min-width:1px) and (max-width:550px){
+  .form__title-container{
+    width:90%;
+    margin:0px auto;
+  }
+
+
+}
+
+@media(min-width:1px) and (max-width:450px){
+
+  .form__title{
+    font-size: 1.7em; /*34/18*/
+  }
+
+  .form__subtitle{
+    font-size:0.9em; /*17/18*/
+  }
+}

@@ -9,7 +9,7 @@
   	<link href="{{ url('/css/screen.css') }}" rel="stylesheet">
 
 
-  	<link href='https://fonts.googleapis.com/css?family=Lato:400,300,700' rel='stylesheet' type='text/css'>
+  	<link href='https://fonts.googleapis.com/css?family=Lato:400,100,300' rel='stylesheet' type='text/css'>
 
   </head>
   <body>

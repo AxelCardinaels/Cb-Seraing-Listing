@@ -93,6 +93,8 @@
  * #COMPONENTS
  */
 
+@import "components.form";
+@import "components.illustration";
 
 
 
@@ -108,4 +110,3 @@ $inuit-enable-margins--none:    true;
 @import "../bower_components/inuit-spacing/trumps.spacing";
 @import "trumps.hide";
 @import "trumps.text-cut";
-

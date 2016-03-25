@@ -1,9 +1,30 @@
 html{
-	
-	font-family: sans-serif;
+
+	font-family: 'Lato', sans-serif;
 	line-height: 1.6;
 	font-size: 18px;
 }
 
-html,body {
+html,body, main, .home{
+
+	height: 100%;
+}
+
+
+@media(min-width:551px) and (max-width:951px){
+
+  html{
+		font-size: 17px;
+	}
+
+
+}
+
+
+@media(min-width:1px) and (max-width:550px){
+
+  html{
+		font-size: 16px;
+	}
+
 }

@@ -1,0 +1,84 @@
+.container__form{
+  display: table-cell;
+  vertical-align: middle;
+}
+
+.form__create{
+  width:67.142857142857%; /*470/700*/
+  margin:3.33333333333333em auto 0px; /*60/18*/
+}
+
+.form__input{
+  width: 100%;
+  display: block;
+  padding:0.55555555555556em 0px 0.55555555555556em 0.83333333333333em; /*10/18 15/18*/
+  border:1px solid $color-input-border;
+  font-weight: 300;
+  @include transition_css(all,0.3s,ease-in-out,0s);
+
+  &+&{
+    margin-top:20px;
+  }
+
+  &:focus{
+    border-color: $color-button;
+    color:$color-button;
+  }
+}
+
+.form__input:-moz-placeholder{
+    color: $color-placeholder;
+    font-weight: 300;
+}
+
+.form__input::-webkit-input-placeholder{
+    color: $color-placeholder;
+    font-weight: 300;
+}
+
+.form__input.placeholder{
+  color: $color-placeholder;
+  font-weight: 300;
+}
+
+
+.form__bouton{
+  margin-top:2.22222222222222em; /*40/18*/
+  width:100%;
+  text-align: center;
+  color:white;
+  background: $color-button;
+  border:none;
+  padding:0.66666666666667em 0px; /*12/18*/
+
+  @include transition_css(all,0.2s,ease-in-out,0s);
+
+  &:hover{
+    background: darken($color-button, 8%);
+  }
+}
+
+select{
+  border-radius: 0px;
+  -webkit-appearance: none;
+  -moz-appearance:none;
+  background:url('../img/arrowDown.svg') no-repeat 95% center transparent;
+
+}
+
+
+@media(min-width:951px) and (max-width:1230px){
+
+  .form__create{
+    width:75%;
+  }
+
+}
+
+@media(min-width:1px) and (max-width:550px){
+
+  .form__create{
+    width:85%;
+  }
+
+}
