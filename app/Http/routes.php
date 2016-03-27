@@ -14,6 +14,7 @@
 Route::group(['middleware' => ['web']], function () {
 
     Route::get('/', ['as' => 'home', 'uses' => 'PagesController@home']);
-    Route::resource('user', 'UserController');
+    Route::get('/vault', ['as' => 'vault', 'uses' => 'PagesController@vault']);
+    Route::resource('item', 'ItemController');
 
 });

@@ -1,10 +1,16 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<svg width="27px" height="15px" viewBox="0 0 27 15" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+<svg width="22px" height="12px" viewBox="0 0 22 12" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
     <!-- Generator: Sketch 3.2 (9961) - http://www.bohemiancoding.com/sketch -->
     <title>Imported Layers</title>
     <desc>Created with Sketch.</desc>
     <defs></defs>
-    <g id="Home" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
-        <path d="M7.61182206,19.7674655 C7.4552103,19.7674655 7.29875148,19.7074962 7.17915148,19.5877109 C6.94025736,19.347987 6.94025736,18.9596434 7.17930442,18.7200729 L18.482575,7.3870974 L7.17915148,-3.95293328 C6.94025736,-4.19250383 6.9404103,-4.58100076 7.17930442,-4.82057131 C7.41819853,-5.05983512 7.80559853,-5.05983512 8.04449265,-4.82041794 L19.7802809,6.95350844 C20.019175,7.19307899 20.019175,7.58157592 19.7801279,7.82114648 L8.04433971,19.5878643 C7.92489265,19.7074962 7.76828089,19.7674655 7.61182206,19.7674655" id="Imported-Layers" stroke="#B8AD9E" fill="#B8AD9E" sketch:type="MSShapeGroup" transform="translate(13.500000, 7.500000) rotate(-270.000000) translate(-13.500000, -7.500000) "></path>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
+        <g id="Rectangle-1-+-Bitmap-+-Rectangle-2-+-Group" sketch:type="MSLayerGroup" transform="translate(-1529.000000, -613.000000)" stroke="#CACACA" fill="#D0D0D0">
+            <g id="Group" transform="translate(1095.000000, 219.000000)" sketch:type="MSShapeGroup">
+                <g id="Rectangle-3-+-Ton-adresse-email-2" transform="translate(0.000000, 379.000000)">
+                    <path d="M440.470632,30.8139724 C440.350162,30.8139724 440.229809,30.7659969 440.137809,30.6701687 C439.954044,30.4783896 439.954044,30.1677147 440.137926,29.9760583 L448.83275,20.9096779 L440.137809,11.8376534 C439.954044,11.6459969 439.954162,11.3351994 440.137926,11.1435429 C440.321691,10.9521319 440.619691,10.9521319 440.803456,11.1436656 L449.830985,20.5628068 C450.01475,20.7544632 450.01475,21.0652607 449.830868,21.2569172 L440.803338,30.6702914 C440.711456,30.7659969 440.590985,30.8139724 440.470632,30.8139724" id="Imported-Layers" transform="translate(445.000000, 21.000000) rotate(-270.000000) translate(-445.000000, -21.000000) "></path>
+                </g>
+            </g>
+        </g>
     </g>
 </svg>

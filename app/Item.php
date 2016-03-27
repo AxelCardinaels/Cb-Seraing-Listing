@@ -2,17 +2,11 @@
 
 namespace App;
 
-use Illuminate\Foundation\Auth\User as Authenticatable;
+use Illuminate\Database\Eloquent\Model;
 
-class User extends Authenticatable
+class Item extends Model
 {
-    /**
-     * The attributes that are mass assignable.
-     *
-     * @var array
-     */
-
-    protected $table = 'users';
+    protected $table = "item";
     protected $fillable = [
         'prenom', 'nom', 'telephone','email','grade','status',
     ];

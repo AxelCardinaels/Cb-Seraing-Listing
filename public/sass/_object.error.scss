@@ -3,7 +3,7 @@
   font-size: 17px;
   font-weight: 300;
   padding:15px;
-  border-radius: 6px;
+  border-radius: 5px;
 
   margin-bottom:30px;
 
@@ -21,6 +21,6 @@
 }
 .message--success{
   background:rgba(green,0.25);
-  color:darken(green,5%);
+  color:darken(green,2%);
   border:1px solid rgba(green,0.35);
 }

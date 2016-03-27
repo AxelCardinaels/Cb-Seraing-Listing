@@ -537,10 +537,14 @@ html, body, main, .home {
   /*17/18*/
   color: #898989; }
 
+.title--login {
+  margin: 2.22222222222222em 0px 3.33333333333333em;
+  /*40/18 60/18*/ }
+
 @media (min-width: 1px) and (max-width: 550px) {
   .form__title-container {
     width: 90%;
-    margin: 0px auto; } }
+    margin: 2.22222222222222em auto 3.33333333333333em; } }
 @media (min-width: 1px) and (max-width: 450px) {
   .form__title {
     font-size: 1.7em;
@@ -583,6 +587,13 @@ a {
   display: table;
   height: 100%; }
 
+.wrapper--login {
+  width: 600px;
+  margin: 0px auto; }
+
+@media (min-width: 1px) and (max-width: 601px) {
+  .wrapper--login {
+    width: 90%; } }
 @media (min-width: 951px) and (max-width: 1230px) {
   .wrapper--image {
     width: 50%; }
@@ -601,7 +612,7 @@ a {
   font-size: 17px;
   font-weight: 300;
   padding: 15px;
-  border-radius: 6px;
+  border-radius: 5px;
   margin-bottom: 30px; }
 
 .error__message {
@@ -615,7 +626,7 @@ a {
 
 .message--success {
   background: rgba(0, 128, 0, 0.25);
-  color: #006700;
+  color: #007600;
   border: 1px solid rgba(0, 128, 0, 0.35); }
 
 /**

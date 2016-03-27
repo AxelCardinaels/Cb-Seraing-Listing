@@ -17,7 +17,7 @@
     </div>
 @endif
 
-        <form role="form" method="POST" action="{{ route('user.store')}}">
+        <form role="form" method="POST" action="{{ route('item.store')}}">
             {!! csrf_field() !!}
               <input type="text" class="form__input register__input" name="prenom" id="prenom" placeholder="Ton prénom" value="{{ old('prenom') }}">
               <input type="text" class="form__input register__input" name="nom" id="nom" placeholder="Ton nom" value="{{ old('nom') }}">
