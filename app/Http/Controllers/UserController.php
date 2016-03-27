@@ -37,6 +37,7 @@ class UserController extends Controller
         return redirect('/')
                     ->withErrors($validator)
                     ->withInput();
+
     }else{
       $user = new User;
       $user->prenom = $request->prenom;
@@ -46,7 +47,7 @@ class UserController extends Controller
       $user->grade = $request->grade;
       $user->save();
 
-      return view('pages/home');
+      return redirect('/')->with('status', 'Données enregistrées !');
     }
 
 
