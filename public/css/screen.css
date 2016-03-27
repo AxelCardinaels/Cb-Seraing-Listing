@@ -597,6 +597,20 @@ a {
   .wrapper--form {
     width: 100%;
     height: auto; } }
+.form__error-container {
+  font-size: 17px;
+  font-weight: 300;
+  padding: 15px;
+  border-radius: 6px;
+  background: rgba(255, 0, 0, 0.25);
+  color: #cc0000;
+  margin-bottom: 30px;
+  border: 1px solid rgba(255, 0, 0, 0.35); }
+
+.error__message {
+  font-weight: 400;
+  margin-bottom: 10px; }
+
 /**
  * #COMPONENTS
  */

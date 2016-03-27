@@ -9,7 +9,6 @@ use App\Http\Requests;
 class PagesController extends Controller
 {
   public function home(){
-    $test = 1;
-    return view('pages/home',['test' => $test]);
+    return view('pages/home');
   }
 }

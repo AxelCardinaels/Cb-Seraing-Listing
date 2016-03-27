@@ -64,6 +64,7 @@ return [
             'prefix' => '',
             'strict' => false,
             'engine' => null,
+
         ],
 
         'pgsql' => [
@@ -77,6 +78,7 @@ return [
             'prefix' => '',
             'schema' => 'public',
         ],
+        
 
     ],
 
