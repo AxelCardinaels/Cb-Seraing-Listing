@@ -15,8 +15,11 @@ Route::group(['middleware' => ['web']], function () {
 
     Route::get('/', ['as' => 'home', 'uses' => 'PagesController@home']);
     Route::get('/login', ['as' => 'login', 'uses' => 'PagesController@login']);
-    Route::get('/vault', ['as' => 'vault', 'uses' => 'PagesController@vault']);
+    Route::get('/vault', ['middleware' => 'auth', 'as' => 'vault', 'uses' => 'PagesController@vault']);
+    Route::get('/vault/index', ['middleware' => 'auth', 'as' => 'index', 'uses' => 'ItemController@index']);
+    Route::get('/vault/unsigned', ['middleware' => 'auth', 'as' => 'unsigned', 'uses' => 'ItemController@unsigned']);
     Route::post('/authenticate', ['as' => 'authenticate', 'uses' => 'AuthController@authenticate']);
+
     Route::resource('item', 'ItemController');
 
 });

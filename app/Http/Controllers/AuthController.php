@@ -13,18 +13,20 @@ class AuthController extends Controller {
      *
      * @return Response
      */
+
+
     public function authenticate(Request $request)
     {
     	$data = $request->only('email','password');
 		  $data['password'] = $data['password'];
 
-        if(Auth::attempt($data))
+        if(Auth::attempt($data,true));
         {
-            return('succes');
+            return view("pages/vault");
         }
-        $errors = ['fails' => 'no match'];
 
-        return('failed');
+        return('bad');
+
     }
 
 

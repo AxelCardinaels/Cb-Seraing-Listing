@@ -13,13 +13,13 @@ class PagesController extends Controller
     return view('pages/home');
   }
 
-  public function vault(){
-
-    return view('pages/vault')->with(['items' => item::all()]);
-  }
-
   public function login(){
     return view("pages/login");
+  }
+
+  public function vault(){
+
+    return view('pages/vault');
   }
 
 }

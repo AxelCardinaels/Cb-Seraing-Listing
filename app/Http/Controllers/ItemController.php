@@ -46,8 +46,21 @@ class ItemController extends Controller
 
       return redirect('/')->with('status', 'Données enregistrées, merci !');
     }
+  }
 
+  public function index(){
+    $item = Item::all();
+    return view(('user/index'),['items' => $item]);
+  }
 
+  public function unsigned(){
+    $item = Item::get()->where('status',0);
+    return view(('user/unsigned'),['items' => $item]);
+  }
 
+  public function update($id){
+    DB::table('item')
+            ->where('id', $id)
+            ->update(['status' => 1]);
   }
 }

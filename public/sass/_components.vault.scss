@@ -1,0 +1,40 @@
+.vault__table-container{
+  margin-top:60px;
+}
+
+.vault__total{
+  font-weight: 300;
+
+  span{
+    font-weight: 400;
+  }
+}
+
+.vault__table{
+  width: 100%;
+  margin-top:10px;
+  border-bottom: 1px solid $color-input-border;
+}
+
+.table__header{
+  background:$color-button;
+  color:white;
+  border-right:2px solid $color-button;
+
+  th{
+    font-weight: 400;
+    padding:10px 0px 10px 15px;
+
+  }
+}
+
+th{
+  font-weight: 300;
+  padding:10px 0px 10px 15px;
+}
+
+.table__loop{
+  border-left: 1px solid $color-input-border;
+  border-right: 1px solid $color-input-border;
+  border-bottom: 1px solid rgba($color-input-border,0.3);
+}

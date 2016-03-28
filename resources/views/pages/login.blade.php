@@ -10,6 +10,13 @@
     </div>
 
     @include('admin.forms.login')
+
+
+    @if (Auth::check())
+  logged
+ @else
+  not logged
+  @endif
   </section>
 
 </main>
