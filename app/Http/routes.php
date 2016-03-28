@@ -14,7 +14,9 @@
 Route::group(['middleware' => ['web']], function () {
 
     Route::get('/', ['as' => 'home', 'uses' => 'PagesController@home']);
+    Route::get('/login', ['as' => 'login', 'uses' => 'PagesController@login']);
     Route::get('/vault', ['as' => 'vault', 'uses' => 'PagesController@vault']);
+    Route::post('/authenticate', ['as' => 'authenticate', 'uses' => 'AuthController@authenticate']);
     Route::resource('item', 'ItemController');
 
 });
