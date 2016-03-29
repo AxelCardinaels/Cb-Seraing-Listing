@@ -19,7 +19,7 @@
               <th>Téléphone</th>
               <th>Email</th>
               <th>Grade</th>
-              <th>Activer</th>
+              <th>Action</th>
             </tr>
 
 
@@ -30,7 +30,7 @@
               <th>{{$item->telephone}}</th>
               <th>{{$item->email}}</th>
               <th>{{$item->grade}}</th>
-              <th>Activer</th>
+              <th>Traiter</th>
             </tr>
 
             @endforeach
