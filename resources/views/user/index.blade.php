@@ -7,7 +7,7 @@
 
         <div class="form__title-container">
           <h1 class="form__title">Toutes les entrées</h1>
-          <p class=form__subtitle>Tous - <a href="{{route('unsigned')}}" alt="afficher toutes les entrées non traitées">Non traitées</a></p>
+          <p class=form__subtitle>Toutes - <a href="{{route('unsigned')}}" alt="afficher toutes les entrées non traitées">Non traitées</a></p>
         </div>
 
         <div class="vault__table-container">
@@ -30,7 +30,13 @@
               <th>{{$item->telephone}}</th>
               <th>{{$item->email}}</th>
               <th>{{$item->grade}}</th>
-              <th>{{$item->status}}</th>
+              <th>
+                    @if($item->status == 0)
+                      Non traité
+                    @else
+                      Traité
+                    @endif
+              </th>
             </tr>
 
             @endforeach

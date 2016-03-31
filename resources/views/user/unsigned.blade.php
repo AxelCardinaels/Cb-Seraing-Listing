@@ -7,7 +7,7 @@
 
         <div class="form__title-container">
           <h1 class="form__title">Liste des entrées non traitées</h1>
-          <p class=form__subtitle><a href="{{route('index')}}" alt="afficher toutes les entrées">Tous</a> - Non traitées</p>
+          <p class=form__subtitle><a href="{{route('index')}}" alt="afficher toutes les entrées">Toutes</a> - Non traitées</p>
         </div>
 
         <div class="vault__table-container">

@@ -25,10 +25,10 @@
               <input type="text" class="form__input register__input" name="email" id="email" placeholder="Ton email" value="{{ old('email') }}">
               <select class="form__input register__input" name="grade" id="grade">
                 <option selected disabled>Je suis...</option>
-                <option value="baptisé">Baptisé</option>
-                <option value="assistant">Assistant</option>
-                <option value="capé">Capé</option>
-                <option value="ancien">Ancien</option>
+                <option value="Baptisé">Baptisé</option>
+                <option value="Assistant">Assistant</option>
+                <option value="Capé">Capé</option>
+                <option value="Ancien">Ancien</option>
               </select>
 
               <button type="submit" class="form__bouton bouton__create">

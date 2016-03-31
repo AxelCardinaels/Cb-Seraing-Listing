@@ -54,7 +54,7 @@ class ItemController extends Controller
   }
 
   public function unsigned(){
-    $item = Item::get()->where('status',0);
+    $item = Item::where('status',0)->orderBy('nom', 'desc')->get();
     return view(('user/unsigned'),['items' => $item]);
   }
 
